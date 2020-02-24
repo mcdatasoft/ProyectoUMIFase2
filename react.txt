@@ -1,0 +1,16 @@
+1-tuve que instalar express y express@types para crear el
+server.ts, aqui creamos la carpeta publica con el archivo js main.js 
+con el programa react bundled tomamos la carpeta jsx que contiene elaplicativo react
+y con el modulo parceljs todo el app se comprime en unico file main.js
+
+ademas creamos la carpeta views que contiene el file index.html 
+y la servimos como pagina estatica en la route por defecto ('/')
+en este file html se coloca el script y la referencia al app react 
+main.js de la carpeta publica.
+
+2.- ademas se creo la carpeta fuentes con los typescript de server
+se compilan con typescript hacia la carpeta build/fuentes que contiene
+los archivos compilados.
+
+3-se instala react y react node para publicar el app desde el server node.
+se instala parcel js para el compilado y crear el archivo comprimido
